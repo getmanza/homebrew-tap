@@ -4,28 +4,28 @@
 class Manza < Formula
   desc "Command-line interface for the Manza API"
   homepage "https://github.com/getmanza/cli"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/getmanza/cli/releases/download/v#{version}/manza-darwin-arm64"
-      sha256 "dc4cbcf03f5241720e48e050902e91f5d81ee463c11e3494bdb98a93131d3e51"
+      sha256 "66dd5fefae228ad6a3b8a92dd6d59ae8adf5d00ee8573552a9c5359a40876710"
     end
     on_intel do
       url "https://github.com/getmanza/cli/releases/download/v#{version}/manza-darwin-x64"
-      sha256 "5383986ce649a27318d8705802b57e637e48cb29779d56e99c984c9f18336350"
+      sha256 "6cfc861f17c01f4f06d07a024a574c457e6591115c039ceb597eb2f275a1c579"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/getmanza/cli/releases/download/v#{version}/manza-linux-arm64"
-      sha256 "f08494c3f3d4f9cce9ea7118790b6c8995ca9dc002f494675406a7d4be5ea223"
+      sha256 "ae938919d5d64488f8e892219c78660ab8d9245bbbfb2552afae327388eb8004"
     end
     on_intel do
       url "https://github.com/getmanza/cli/releases/download/v#{version}/manza-linux-x64"
-      sha256 "be162a66b3c6afd6c7a9a526e3478001957cc7fadb6c007baaec5d32fcffc283"
+      sha256 "357ff8c6fb883b974f6ed88d8d6a2d04e49181be4d6563577802106c569ed313"
     end
   end
 
