@@ -6,6 +6,7 @@ class Zazu < Formula
   homepage "https://github.com/getmanza/cli"
   version "0.3.0"
   license "MIT"
+  deprecate! date: "2026-10-03", because: "has been renamed to manza; run: brew install getmanza/tap/manza"
 
   on_macos do
     on_arm do
